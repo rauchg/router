@@ -1,3 +1,11 @@
+Notes: two files were added to this project
+- `Dockerfile` with the test instructions
+- `now.json` to mark this deployment as `type: "static"`
+
+In `package.json`, a `jest` HTML reporter was added, outputting to `/public/` so that Now can serve the files via its CDN
+
+----
+
 <p align="center">
   <a href="https://reach.tech/router/">
     <img alt="Reach Router" src="./logo-horizontal.png" width="400">
